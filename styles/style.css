@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 10px;
+    background-color:cadetblue;
+}
+
+header h1 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section {
+    background-color:cornsilk;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 50px;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 5px 10px;
+}
+
+section h2 {
+    margin-bottom: 15px;
+}
+
+button {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#bookFormTitle, #bookFormAuthor, #bookFormYear, #searchBookTitle {
+    width: 95%;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+#isComplete {
+    background-color: green;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+}
+
+#deleteBook {
+    background-color: red;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+}
+
+#edit-button {
+    background-color: yellow;
+    padding: 8px;
+    border-radius: 10px;
+    color: black;
+}
+
+#searchSubmit {
+    background-color: yellow;
+    padding: 8px;
+    border-radius: 10px;
+    color: black;
+    width: 100px;
+}
+
+#bookFormSubmit {
+    padding: 8px;
+    border-radius: 10px;
+    background-color:darkgray ;
+}
